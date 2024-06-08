@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="style">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="dark-overlay">
+            <header>
+                <div>
+                    <img src="./assets/images/logo.svg" id="logo" />
+                </div>
+                <div>
+                    <button class="lang-btn">English</button>
+                    <button class="signIN-btn">Sign in</button>
+                </div>
+            </header>
+            <div class="hero">
+                <div class="hero-text-part">
+                    <h1 class="hero-text1">Search unlimited movies, TV shows and more</h1>
+                    <h3 class="hero-text2">Watch anywhere. Cancel anytime.</h3>
+                    <h3 class="hero-text3">Ready to watch? Enter the name of movie or series.</h3>
+                </div>
+                <div class="hero-btn-part">
+                    <input class="hero-input" placeholder="Search Movie or Series..."  id="searchInput"/>
+                    <button class="hero-btn" id="searchButton">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-results">
+            <div id="results" class="results"></div>
+        </div>
+
+
+        <!-- Enjoy on your TV -->
+        <div class="enjoy-section">
+            <div class="enjoy-section-text">
+                <h1 class="enjoy-section-text1">Enjoy on your TV</h1>
+                <h3 class="enjoy-section-text2">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+            </div>
+            <div class="enjoy-section-tv">
+                <video autoplay loop muted
+                src="./assets/videos/enjoy.m4v" id="enjoy-video"></video>
+                <img id="tvPng" src="./assets/images/tv.png" />
+            </div>
+        </div>
+
+        <!-- Download your shows to watch offline -->
+        <div class="download-section">
+            <div class="download-phone-part">
+                <img src="./assets/images/mobile-0819.jpg" id="phoneImg" />
+            </div>
+            <div class="download-text-part">
+                <h1 class="download-text-part1">Download your shows to watch offline</h1>
+                <h3 class="download-text-part2">Save your favourites easily and always have something to watch.</h3>
+            </div>
+        </div>
+
+        <!-- Watch everywhere -->
+        <!-- taken from enjoy section except video, video id is diff-->
+        <div class="enjoy-section">
+            <div class="enjoy-section-text">
+                <h1 class="enjoy-section-text1">Watch everywhere</h1>
+                <h3 class="enjoy-section-text2">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+            </div>
+            <div class="enjoy-section-tv">
+                <video autoplay loop muted
+                src="./assets/videos/watch.m4v" id="watch-video"></video>
+                <img id="tvPng" src="./assets/images/tv2.png" />
+            </div>
+        </div>
+
+        <!-- Create profiles for kids -->
+        <!-- taken from download section -->
+        <div class="download-section">
+            <div class="download-phone-part">
+                <img src="./assets/images/childrean.png" id="childImg" />
+            </div>
+            <div class="download-text-part">
+                <h1 class="download-text-part1">Create profiles for kids</h1>
+                <h3 class="download-text-part2">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3>
+            </div>
+        </div>
+
+
+        <!-- FAQ -->
+        <div class="faq-section">
+            <div>
+                <h1 class="download-text-part1">Frequently Asked Questions</h1>
+            </div>
+            <div class="que-div">
+                <div class="questions">
+                    <h3>What is Netflix</h3>
+                    <h3>+</h3>
+                </div>
+                <h3 class="answer">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</h3>
+                
+                <div class="questions">
+                    <h3>How much does Netflix cost?</h3>
+                    <h3>+</h3>
+                </div>
+                <h3 class="answer">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</h3>
+                
+                <div class="questions">
+                    <h3>Where can I watch?</h3>
+                    <h3>+</h3>
+                </div>
+                <h3 class="answer">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</h3>
+                
+                <div class="questions">
+                    <h3>How can I cancel?</h3>
+                    <h3>+</h3>
+                </div>
+                <h3 class="answer">Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</h3>
+                
+                <div class="questions">
+                    <h3>What can I watch on Netflix</h3>
+                    <h3>+</h3>
+                </div>
+                <h3 class="answer">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</h3>
+                
+                <div class="questions">
+                    <h3>Is Netflix good for kids?</h3>
+                    <h3>+</h3>
+                </div>
+                <h3 class="answer">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</h3>
+            </div>
+            <div class="faq-2">
+                <h3 class="enjoy-section-text2">Ready to watch? Enter your email to create or restart your membership.</h3>
+                <div class="hero-btn-part">
+                    <input class="hero-input" placeholder="Email address" />
+                    <button class="hero-btn">Get Started ></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="contact-div">Questions? Call 000-800-919-1694</div>
+            <div class="faq-options">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Account</a>
+                <a href="#">Media Center</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Terms of use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Speed Test</a>
+                <a href="#">Legal Notices</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="footer-end">
+                <button class="end-lang-btn">English</button>
+                <h4 class="netflix-india">Netflix India</h4>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script>
+    const questions = document.querySelectorAll('.questions');
+
+    questions.forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.classList.toggle('active');
+        });
+    });
+</script>
+</html>
