@@ -2,8 +2,11 @@
 This project is a Netflix clone built using HTML and JavaScript, integrating the TMDB (The Movie Database) API to fetch and display movie and series information. The application allows users to search for movies and TV shows, view details such as names, reviews, ratings, and more.
 
 <div align="center">
-  ![](https://github.com/ShivamKuite07/netflix-clone-with-tmdb-api/blob/main/clone.gif)
+  
+![](https://github.com/ShivamKuite07/netflix-clone-with-tmdb-api/blob/main/clone.gif)
+
 </div>
+
 # Features
 - Search Functionality: Users can search for movies and TV shows by title.
 - Detailed Information: Displays detailed information about each movie or TV show, including name, reviews, and ratings.
